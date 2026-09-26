@@ -1,0 +1,17 @@
+{
+  "schema": "QEDC_OBSERVABLE_ESTIMATION_RESOURCE_SUMMARY_R2",
+  "scope": "Four reported conditions, one run per condition and method",
+  "shots_per_condition": {
+    "raw_total": 28672,
+    "mitiq_rem_total": 143360,
+    "kenji_total": 143360,
+    "mitiq_rem_and_kenji_reference_or_calibration": 114688
+  },
+  "processing_seconds_median_rounded": {
+    "raw": 0.0014,
+    "mitiq_rem": 0.26,
+    "kenji": 0.53
+  },
+  "kenji_peak_ram_megabytes_max_rounded": 70,
+  "timing_note": "Reported processing times cover method-specific work and are not equal-budget QPU or end-to-end throughput measurements."
+}

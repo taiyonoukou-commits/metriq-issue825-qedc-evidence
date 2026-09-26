@@ -1,0 +1,41 @@
+{
+  "schema": "QEDC_OBSERVABLE_ESTIMATION_PUBLIC_SUMMARY_R2",
+  "status": "INDEPENDENT_TEST_NOT_OFFICIAL_QEDC_OR_METRIQ",
+  "case_count": 4,
+  "method_count": 3,
+  "metric": "100 * abs(estimate - exact_truth) / abs(exact_truth), rounded to 6 decimal places",
+  "conditions": [
+    {
+      "id": "CONTROL_NONE",
+      "relative_error_percent": {
+        "raw": 0.279948,
+        "mitiq_rem": 0.234375,
+        "kenji": 0.279948
+      }
+    },
+    {
+      "id": "GRADUAL_MEDIUM",
+      "relative_error_percent": {
+        "raw": 5.914714,
+        "mitiq_rem": 0.406901,
+        "kenji": 0.33595
+      }
+    },
+    {
+      "id": "STEP_MEDIUM",
+      "relative_error_percent": {
+        "raw": 4.707031,
+        "mitiq_rem": 0.065104,
+        "kenji": 0.104195
+      }
+    },
+    {
+      "id": "PERIODIC_MEDIUM",
+      "relative_error_percent": {
+        "raw": 13.601888,
+        "mitiq_rem": 0.776367,
+        "kenji": 0.448924
+      }
+    }
+  ]
+}
